@@ -1,0 +1,12 @@
+name: tutorial-example
+channels:
+  - default
+dependencies:
+  - python=3.9
+  - sphinx
+  - pip
+  - pandas
+  - matplotlib
+  - numpy
+  - pip:
+    - jupyter-book
