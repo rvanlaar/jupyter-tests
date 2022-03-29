@@ -32,6 +32,7 @@ jobs:
     # Build the book
     - name: Build the book
       run: |
+        conda activate tutorial-example
         jupyter-book build .
 
     # Deploy the book's HTML to gh-pages branch

@@ -1,12 +1,22 @@
 name: tutorial-example
 channels:
-  - default
+  - conda-forge
 dependencies:
   - python=3.9
   - sphinx
   - pip
   - pandas
   - matplotlib
+  - scipy
   - numpy
-  - pip:
-    - jupyter-book
+  - statsmodels
+  - pingouin
+  - seaborn
+  - r-base=4.1.2
+  - r-knitr
+  - jupyterlab
+  - jupyter-book
+  - jupytext
+  - nbconvert
+  - scikit-posthocs
+  - py-pandoc
